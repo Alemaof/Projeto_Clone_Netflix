@@ -1,0 +1,28 @@
+@media screen and (max-width:900px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    nav {
+        margin-top: 5px;
+    }
+
+    .botao{
+        margin-top: 10px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .main-game .container{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .main-game .container{
+        width: 80%;
+    }
+}
