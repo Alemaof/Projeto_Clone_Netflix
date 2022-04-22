@@ -7,13 +7,16 @@
     
     <title>Gameflix</title>
 
+    <!--Referenciando Páginas de Estilo-->
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/responsive.css">
+    <!--Páginas de Estilo JQuery para criar os carroseis-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
 </head>
 <body>
+    <!--Cabeçalho-->
     <header id="inicio">
         <div class="container">
             <div class="titulo">
@@ -29,19 +32,24 @@
             </nav>
         </div>
     </header>
+    <!--Fim do Cabeçalho-->
 
+    <!--main é uma div assim como header. Os nomes diferentes são para a semântica da página-->
     <main id="main">
         <div class="main-game">
             <div class="container">
                 <h2 class="game-name">Metroid Dread</h2>
                 <p class="game-desc">Este novo capítulo da saga Metroid se passa logo após os acontecimentos de Metroid Fusion. Samus Aran recebe uma transmissão misteriosa e vai parar no planeta ZDR, onde enfrenta diversas formas alienigenas, além dos robos caçadores E.M.M.I.</p>
                 <div class="botoes">
+                    <!--O botão é inserido dentro de uma âncora a para gerar o link do vídeo-->
                     <a href="https://www.youtube.com/embed/T7VPHEbEUwI" target="_blank">
                         <button role="button" class="botao">
+                            <!--Ícone inserido através do repositório Owl-Corousel-->
                             <i class="fa-solid fa-play"></i>
                             Ver Review</button>
                     </a>
                     <button role="button" class="botao">
+                        <!--Ícone inserido através do repositório Owl-Corousel-->
                         <i class="fa-solid fa-circle-info"></i>
                         Informações do Jogo</button>
                 </div>
@@ -49,6 +57,7 @@
         </div>
     </main>
 
+    <!--JQuery para gerar o carrosel-->
     <div class="carrossel" id="carrossel-pc">
         <p class="secao">Jogos para PC</p>
         <div class="owl-carousel owl-theme">
@@ -85,6 +94,7 @@
         </div>
     </div>
 
+    <!--JQuery para gerar o carrosel-->
     <div class="carrossel" id="carrossel-ps5">
         <p class="secao">Jogos para Playstation 5</p>
         <div class="owl-carousel owl-theme">
@@ -121,6 +131,7 @@
         </div>
     </div>
 
+    <!--JQuery para gerar o carrosel-->
     <div class="carrossel" id="carrossel-switch">        
         <p class="secao">Jogos para Nintendo Switch</p>
         <div class="owl-carousel owl-theme">
@@ -157,6 +168,7 @@
         </div>
     </div>
 
+    <!--JQuery para gerar o carrosel-->
     <div class="carrossel" id="carrossel-xbox">        
         <p class="secao">Jogos para X-Box One</p>
         <div class="owl-carousel owl-theme">
@@ -193,6 +205,7 @@
         </div>
     </div>
     
+    <!--Declaração dos scripts. Recomendado ao final dá página-->
     <script src="https://kit.fontawesome.com/68b6c1d4bf.js" crossorigin="anonymous"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>

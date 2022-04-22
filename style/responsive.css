@@ -1,3 +1,4 @@
+/* Condição para quando a tela tiver até 900px de comprimento */
 @media screen and (max-width:900px){
     header .container{
     display: flex;
@@ -15,12 +16,7 @@
 
 }
 
-@media screen and (min-width:1000px){
-    .main-game .container{
-        width: 50%;
-    }
-}
-
+/* Condição para quando a tela tiver até 1000px de comprimento */
 @media screen and (max-width:1000px){
     .main-game .container{
         width: 80%;
