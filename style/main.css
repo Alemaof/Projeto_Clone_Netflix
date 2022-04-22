@@ -59,8 +59,10 @@ header .container .titulo .desc-logo{
     font-weight: 10;
 }
 
-header nav a{
+a{
     text-decoration: none;
+}
+header nav a{
     color: var(--font);
     margin-right: 20px;
     font-size: 20px;
